@@ -62,7 +62,10 @@ const Home = () => {
 										</div>
 										<div className='col-4'>
 											<div className='post__image'>
-												<img src={`/images/${post.image}`} alt={post.image} />
+												<img
+													src={`/../../build/images/${post.image}`}
+													alt={post.image}
+												/>
 											</div>
 										</div>
 									</div>
