@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "build": "npm run build --prefix client",
     "client-install":"npm install --prefix client",
     "heroku-postbuild":"npm run client-install && npm run build",
