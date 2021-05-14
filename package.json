@@ -1,8 +1,8 @@
 {
-  "name": "mernBlog",
+  "name": "test-blog",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "build": "npm run build --prefix client",
