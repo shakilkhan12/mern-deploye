@@ -177,7 +177,7 @@ export const postDetails = (id) => {
 		try {
 			const {
 				data: { post, comments },
-			} = await axios.get(`/explain/${id}`);
+			} = await axios.get(`/details/${id}`);
 			dispatch({ type: CLOSE_LOADER });
 			dispatch({ type: SET_DETAILS, payload: post });
 			dispatch({ type: COMMENTS, payload: comments });
